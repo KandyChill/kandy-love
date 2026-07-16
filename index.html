@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kandy ❤️ Bảo Trâm</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container" id="home">
+
+    <h1>Kandy ❤️ Bảo Trâm</h1>
+
+    <div style="position:relative;display:inline-block;">
+
+        <div class="heart-glow"></div>
+
+        <div class="heart">💖</div>
+
+    </div>
+
+    <p id="message">
+
+        Chỉ cần là cậu,<br>
+
+        mọi thứ đều đáng giá. ❤️
+
+    </p>
+
+    <button id="playBtn">
+
+        Phát nhạc 🎵
+
+    </button>
+
+    <button id="nextBtn"
+        onclick="openGift()">
+
+        🎁 Mở Quà
+
+    </button>
+
+    <audio id="music"
+        src="honcayeu.mp3">
+    </audio>
+
+</div>
+
+<!-- Trang 1 -->
+
+<div id="page1"
+     class="container"
+     style="display:none;">
+
+    <h1>🎁 Quà Tặng</h1>
+
+    <p>
+
+        Đây là món quà nhỏ
+
+        Kandy chuẩn bị riêng
+
+        cho Bảo Trâm. 💖
+
+        <br><br>
+
+        Hy vọng cậu sẽ thích.
+
+    </p>
+
+    <button onclick="nhanQua()">
+
+        💝 Nhận Quà
+
+    </button>
+
+    <button onclick="tuChoi()">
+
+        🙈 Để Sau
+
+    </button>
+
+</div>
+<!-- Trang 2 -->
+
+<div id="page2"
+     class="container"
+     style="display:none;">
+
+    <h1>🌹 Gửi Bảo Trâm</h1>
+
+    <div class="flower-scene">
+
+        <img src="avatar-kandy.png"
+             class="avatar avatar-left">
+
+        <span class="flower">🌹</span>
+
+        <img src="avatar-baotram.png"
+             class="avatar avatar-right">
+
+    </div>
+
+    <p>
+
+        Tớ có một bông hoa
+
+        muốn tặng cậu... ❤️
+
+    </p>
+
+    <button onclick="xemTiep()">
+
+        💌 Xem Tiếp
+
+    </button>
+
+</div>
+
+<!-- Trang 3 -->
+
+<div id="page3"
+     class="container"
+     style="display:none;">
+
+    <h1>💖 Gửi Cậu</h1>
+
+    <div id="typingMessage"></div>
+
+    <button onclick="loveHeart()">
+
+        ❤️ I Love You
+
+    </button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
