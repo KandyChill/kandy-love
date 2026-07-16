@@ -242,7 +242,7 @@ function shootingStar(){
 
 }
 
-setInterval(shootingStar, 5000);
+setInterval(shootingStar, 3000);
 // ======================
 // Hiệu ứng cuối
 // ======================
@@ -255,44 +255,6 @@ function loveHeart(){
         origin:{y:0.6}
     });
 
-    const final=document.createElement("div");
-
-    final.className="final-love";
-
-    final.innerHTML=`
-    💖<br><br>
-
-    Không cần cả thế giới.<br><br>
-
-    Chỉ cần có cậu.<br><br>
-
-    Mỗi khoảnh khắc bên cậu<br>
-    đều là những kỷ niệm đáng trân trọng.<br><br>
-
-    Cảm ơn cậu<br>
-    đã xuất hiện trong cuộc sống của tớ.<br><br>
-
-    Nếu một ngày cậu mệt mỏi,<br>
-    hy vọng cậu sẽ nhớ rằng...<br><br>
-
-    Luôn có một người<br>
-    âm thầm mong cậu hạnh phúc.<br><br>
-
-    Dù hôm nay,<br>
-    ngày mai,<br>
-    hay thật lâu về sau...<br><br>
-
-    Tớ vẫn mong cậu<br>
-    luôn bình an và mỉm cười.<br><br>
-
-    ❤️ I Love You ❤️<br><br>
-
-    Forever.<br><br>
-
-    🌹 Kandy yêu Bảo Trâm 🌹
-    `;
-
-    document.body.appendChild(final);
 
     // Chữ bay xung quanh
     const loveTexts=[
